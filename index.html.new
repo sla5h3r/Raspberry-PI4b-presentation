@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raspberry Pi 4B 4GB RAM</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon (using Raspberry Pi logo as cursor, but we can also set a favicon) -->
+    <link rel="icon" href="assets/raspberry-logo.svg" type="image/svg+xml">
+</head>
+<body>
+    <div class="binary-background"></div>
+    </div>
+    <!-- Cursor will be set via CSS -->
+    <div id="cursor">
+        <!-- The cursor image will be set via CSS background-image -->
+    </div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <!-- We'll use a simple spinning logo or text -->
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header/Hero Section -->
+    <header id="hero">
+        <div class="hero-content">
+            <h1>Raspberry Pi 4B 4GB RAM</h1>
+            <p class="tagline">The ultimate single-board computer for makers and professionals</p>
+        </div>
+        <!-- Placeholder for Raspberry Pi 4B image -->
+        <img src="assets/pi-placeholder.svg" alt="Raspberry Pi 4B" class="pi-placeholder">
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">RPi</a>
+            <ul class="nav-menu">
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">How to contact us</a></li>
+            </ul>
+            <div class="nav-hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="nav-mobile" id="nav-mobile">
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">How to contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <h2 class="section-title">Key Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>Quad-Core CPU</h3>
+                <p>1.5GHz Broadcom BCM2711, Quad-core Cortex-A72 (ARM v8) 64-bit SoC</p>
+            </div>
+            <div class="feature-card">
+                <h3>4GB RAM</h3>
+                <p>LPDDR4-3200 SDRAM for smooth multitasking</p>
+            </div>
+            <div class="feature-card">
+                <h3>Dual Display Output</h3>
+                <p>Two micro-HDMI ports supporting up to 4K resolution</p>
+            </div>
+            <div class="feature-card">
+                <h3>Gigabit Ethernet</h3>
+                <p>True Gigabit Ethernet for fast wired networking</p>
+            </div>
+            <div class="feature-card">
+                <h3>USB 3.0</h3>
+                <p>Two USB 3.0 ports for high-speed peripherals</p>
+            </div>
+            <div class="feature-card">
+                <h3>Wireless Connectivity</h3>
+                <p>802.11ac Wi-Fi and Bluetooth 5.0</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="assets/placeholder1.svg" alt="Raspberry Pi 4B front view">
+                <div class="overlay">
+                    <h3>Front View</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/placeholder2.svg" alt="Raspberry Pi 4B top view">
+                <div class="overlay">
+                    <h3>Top View</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/placeholder3.svg" alt="Raspberry Pi 4B in action">
+                <div class="overlay">
+                    <h3>In Action</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/placeholder4.svg" alt="Raspberry Pi 4B ports">
+                <div class="overlay">
+                    <h3>Ports</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Raspberry Pi</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>The Raspberry Pi 4 Model B is the latest single-board computer from the Raspberry Pi Foundation.
+                Released in June 2019, it offers significant improvements over its predecessors, including a faster
+                CPU, more RAM, and dual-display capabilities.</p>
+                <p>With its 4GB RAM variant, it's capable of handling desktop applications, lightweight servers,
+                and various IoT projects with ease.</p>
+            </div>
+            <div class="about-image">
+                <!-- Placeholder for an illustration or additional image -->
+                <img src="assets/placeholder5.svg" alt="Raspberry Pi illustration">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">How to contact us</h2>
+        <div class="contact-info">
+        </div>
+    </section>
+    <div id="astria-overlay">
+        <div class="astria-info">
+            <p class="astria-label">Astria Lab</p>
+            <img src="assets/discord-logo.svg" alt="Discord logo" class="discord-logo-img">
+        </div>
+
+    </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Raspberry Pi Showcase. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="YouTube">YouTube</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
